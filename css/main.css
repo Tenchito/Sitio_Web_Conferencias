@@ -105,7 +105,13 @@ html {
 }
 body {
   background-color: #F2F2F2;
+  font-family: 'Open Sans', sans-serif;
 }
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/** Header **/
 div.hero {
   background-image: url(../img/encabezado.jpg);
   height: 100vh;
@@ -157,6 +163,9 @@ P.fecha {
 p.ciudad {
   float: right;
   text-align: right;
+}
+h1.nombre-sitio {
+  font-family: 'PT Sans', sans-serif;
 }
 
 
