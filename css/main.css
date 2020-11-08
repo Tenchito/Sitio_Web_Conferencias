@@ -167,9 +167,15 @@ h3 {
   margin-top: 20px;
   display: inline-block;
   transition: all .3s ease;
+  border: 2px solid #FE4918;
 }
 .button:hover {
   background-color: #E33000;
+}
+.button.hollow,
+.button.hollow:hover {
+  background-color: white;
+  color: #FE4918;
 }
 .float-right {
   float: right;
@@ -521,6 +527,13 @@ div.tabla-precio {
   background-color: #FFFFFF;
   padding: 40px 0;
   text-align: center;
+  transition: all .3s ease;
+}
+div.tabla-precio:hover {
+  transform: scale(1.1);
+  border: 1px solid #FE4918;
+  box-shadow: 0px 0px 50px #666;
+
 }
 div.tabla-precio ul li {
   font-family: 'PT Sans', sans-serif;
@@ -529,6 +542,17 @@ div.tabla-precio ul li {
   text-transform: uppercase;
   color: #868686;
   line-height: 26px;
+}
+div.tabla-precio ul li::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px;
+  font-size: 20px;
+  color: green;
+  -webkit-font-smoothing: antialiased;
+  content: '\f00c';
 }
 div.tabla-precio h3 {
   font-family: 'Oswald', sans-serif;
