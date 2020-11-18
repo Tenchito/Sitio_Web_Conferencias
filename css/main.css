@@ -715,6 +715,13 @@ footer .ultimos-tweets li {
 footer nav.redes-sociales {
   text-align: left;
 }
+p.copyright {
+  background-color: #2E2E2E;
+  color: #FFFFFF;
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
