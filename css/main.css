@@ -682,6 +682,40 @@ div.cuenta-regresiva ul li{
   }
 }
 
+/** Footer **/
+footer {
+  background-color: #353535;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+footer .contenedor > div {
+  color: #FFFFFF;
+  padding: 0px 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+@media only screen and (min-width: 768px) {
+  footer .contenedor > div {
+    width: 33.3%;
+    float: left;
+  }
+}
+footer h3 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+}
+footer h3 span {
+  color: #FE4918;
+}
+footer .ultimos-tweets li {
+  margin-bottom: 10px;
+}
+footer nav.redes-sociales {
+  text-align: left;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
