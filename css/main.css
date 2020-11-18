@@ -606,7 +606,32 @@ blockquote p::before {
   padding: 0;
   line-height: 1;
   color: #FE4918;
-
+}
+footer.info-testimoniales {
+  padding: 0;
+}
+footer.info-testimoniales img {
+  float: left;
+  width: 20%;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+footer.info-testimoniales cite {
+  text-align: left;
+  color: #FE4918;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 20px;
+  width: 66.6%;
+  float: right;
+  font-weight: bold;
+  font-style: normal;
+}
+footer.info-testimoniales cite span {
+  color: #000000;
+  display: block;
+  text-transform: none;
+  margin-top: 5px;
 }
 
 /* ==========================================================================
