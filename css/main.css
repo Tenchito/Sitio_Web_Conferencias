@@ -738,9 +738,9 @@ form.registro label {
 h4 {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 2px solid #F34918;
+  border-bottom: 2px solid #FE4918;
   padding-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 div.caja {
   background-color: #FFFFFF;
@@ -790,6 +790,33 @@ div.paquetes .tabla-precio input {
 .contenido-dia > div label time{
   color: #FE4918;
   font-weight: bold;
+}
+
+/* Resumen registro */
+div.resumen p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+div.resumen div.extras {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+div.extras div.orden {
+  text-align: left;
+  margin-bottom: 10px;
+}
+div.extras div.orden input{
+  margin: 10px 0 0 0;
+}
+div.resumen div.total {
+  float: right;
+  width: 50%;
+  padding: 30px;
+}
+div.resumen input {
+  display: block;
+  margin: 10px auto;
 }
 /* ==========================================================================
    Helper classes
