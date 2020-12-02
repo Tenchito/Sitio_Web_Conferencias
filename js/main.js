@@ -1,5 +1,6 @@
 (function(){
     "use strict";
+    var regalo = document.getElementById('regalo');
     document.addEventListener('DOMContentLoaded', function(){
         // Campos datos de usuario
         var nombre = document.getElementById('nombre');
@@ -16,6 +17,24 @@
         var errorDiv = document.getElementById('error');
         var botonRegistro = document.getElementById('btnRegistro');
         var resultado = document.getElementById('lista_productos');
+
+        calcular.addEventListener('click', calcularMontos);
+
+        function calcularMontos(event){
+            event.preventDefault();
+            console.log(regalo.value);
+            if(regalo.value == ''){
+                alert("Debes elegir un regalo");
+                regalo.focus();
+            }
+            else{
+                var boletosDia = pase_dia.value,
+                    boletos2Dias = pase_dosdias.value,
+                    boletoCompleto = pase_completo.value;
+                var totalPagar = (boletosDia * 30) + (boletos2Dias * 45) + (boletoCompleto * 50);
+                console.log(totalPagar);
+            }
+        }
 
         
 
